@@ -1,0 +1,13 @@
+pyautogui
+schedule
+cryptography
+paramiko
+psutil
+requests
+pandas
+matplotlib
+scapy
+pyperclip
+pillow
+tkinter
+

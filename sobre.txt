@@ -1,0 +1,33 @@
+Automatização de Tarefas com Scripts de Segurança:
+Descrição do Projeto
+
+Este projeto cria um aplicativo GUI para automatizar tarefas de segurança, como:
+
+    Verificação de portas abertas em uma rede
+    Análise de logs para detecção de anomalias
+    Backup automatizado de arquivos críticos
+    Envio de alertas por e-mail sobre possíveis ameaças
+
+O programa terá uma interface gráfica intuitiva construída com tkinter, permitindo que usuários escolham quais tarefas executar sem necessidade de terminal.
+Tecnologias Utilizadas
+
+    Python 3.10+
+    tkinter (Interface gráfica)
+    scapy (Análise de rede)
+    pandas (Manipulação de dados para logs)
+    smtplib (Envio de e-mails de alerta)
+    shutil (Backup de arquivos críticos)
+
+Funcionalidades
+
+    Verificação de portas abertas
+        O usuário insere um IP ou domínio e a ferramenta verifica as portas abertas usando socket.
+
+    Análise de logs de segurança
+        Carregamento de arquivos de log e filtragem de eventos suspeitos usando pandas.
+
+    Backup automatizado
+        O usuário escolhe um diretório e o programa faz cópia de segurança dos arquivos para um local seguro.
+
+    Envio de alertas por e-mail
+        Caso sejam detectadas ameaças nos logs ou portas suspeitas, o sistema envia um alerta via SMTP.
